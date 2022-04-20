@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Github Marketplace</title>
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body onresize="resizeFunction()">
+  
+  <div id="opacityWrapper" onclick="closeMainMenu()"></div>
+
+  <header id="header" class="headerBase">
+
+    <div class="headerLeft">
+
+      <div class="logo mobileDisappear"><a href="#"></a></div>
+
+      <div class="menu desktopDisappear" onclick="revealMenu()">☰</div>
+      <div class="logo desktopDisappear"><a href="#"></a></div>
+
+      <nav id="nav1" class="mobileDisappear">
+
+        <div class="navInnerWrapper">
+
+          <div id="search" class="headerSearchBarContainer mobileDisappear">
+            <input type="text" placeholder="Search or jump to...">
+            <div>/</div>
+    
+            <ul>
+              <li><a href="#">AverageUser4/w3c</a></li>
+              <li><a href="#">AverageUser4/w3c</a></li>
+              <li><a href="#">AverageUser4/w3c</a></li>
+              <li><a href="#">AverageUser4/w3c</a></li>
+              <li><a href="#">AverageUser4/w3c</a></li>
+              <li><a href="#">AverageUser4/w3c</a></li>
+              <li><a href="#" style="border-bottom: 1px solid #ddd; border-radius: 0 0 5px 5px;">AverageUser4/w3c</a></li>          
+            </ul>
+    
+          </div>
+  
+          <a class="desktopDisappear" href="#">Dashboard</a>
+          <a href="#">Pull requests</a>
+          <a href="#">Issues</a>
+          <a href="#">Marketplace</a>
+          <a href="#">Explore</a>
+          <a class="desktopDisappear" href="#">Codespaces</a>
+          <a class="desktopDisappear" href="#">Sponsors</a>
+          <a class="desktopDisappear" href="#">Settings</a>
+          <a class="desktopDisappear" href="#">AverageUser4</a>
+          <a class="desktopDisappear" href="#">Sign out</a>
+
+        </div>
+
+      </nav>
+
+
+      <div class="desktopDisappear"><a class="bell" href="#">B</a></div>
+
+    </div>
+
+    <div class="headerRight mobileDisappear">
+
+      <div><a href="#">B</a></div>
+      <div>+ ▾</div>
+      <div><img src="resources/profile_picture.png"> ▾</div>
+
+    </div>
+
+  </header> 
+
+  <div class="preMain">
+    <h1>Extend GitHub</h1>
+    <h2>Find tools to improve your workflow</h2>
+    <button>Explore free apps</button>
+    <img class="svg" src="resources/abc.svg">
+  </div>
+
+
+  <div class="mainWrapper">
+
+    <div class="mainAndAside">
+
+      <aside id="aside1">
+
+        <h3>Types</h3>
+        <a href="#">Apps</a>
+        <a href="#">Actions</a>
+  
+        <h3>Categories</h3>
+        <a href="#">API management</a>
+        <a href="#">Chat</a>
+        <a href="#">Code quality</a>
+        <a href="#">API management</a>
+        <a href="#">Chat</a>
+        <a href="#">Code quality</a>
+        <a href="#">API management</a>
+        <a href="#">Chat</a>
+        <a href="#">Code quality</a>
+        <a href="#">API management</a>
+        <a href="#">Chat</a>
+        <a href="#">Code quality</a>
+        <a href="#">API management</a>
+        <a href="#">Chat</a>
+        <a href="#">Code quality</a>
+  
+        <h3>Filters</h3>
+        <a href="#">Free</a>
+        <a href="#">Free Trials</a>
+        <a href="#">GitHub Enterprise</a>
+        <a href="#">Paid</a>
+  
+        <h3>Verification</h3>
+        <a href="#">Verified Creator</a>
+  
+        <h3>Your items</h3>
+  
+      </aside>
+  
+      <main>
+     
+        <div class="mainSearch">
+    
+          <div class="searchBarContainer">
+            <input type="text" placeholder="Search for apps and actions">
+            <div>
+              <h4>Narrow your search</h4>
+              <a href="#">publisher: github</a>
+            </div>
+          </div>
+            
+          <details>
+
+            <summary>Sort: Best Match</summary>
+            <div>
+              <h4>Sort options</h4>
+              <a href="#">Best match</a>
+              <a href="#">Recently added</a>
+              <a href="#">Most installed/starred</a>  
+            </div>
+            
+          </details>
+    
+        </div>
+
+        <div class="mainMenu">
+          <button onclick="revealMainMenu()">Menu</button>
+        </div>
+
+        <div class="appsWrapper">
+
+          <h2>Apps</h2>
+
+          <div class="appsInnerWrapper">
+
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+
+          </div>
+      
+          <a class="viewAll" href="#">View all ></a>
+
+        </div>
+
+        
+        <div class="appsWrapper">
+
+          <h2>Actions</h2>
+
+          <div class="appsInnerWrapper">
+
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+            <a href="#" class="appElement">
+              <div class="appElementLeft">
+                <div>
+                  <img src="resources/app.png">
+                </div>
+              </div>    
+              <div class="appElementRight">
+                <h3>CircleCI</h3>
+                <h4>By circleci</h4>
+                <p>Automatically build, test, and deploy your project in minutes.</p>
+                <div>Recommended</div>
+              </div>
+            </a>
+
+          </div>
+      
+          <a class="viewAll" href="#">View all ></a>
+
+        </div>
+
+      </main>
+
+    </div>
+
+  </div>
+  
+  <div id="asideTop">
+    <h4>Menu</h4>
+    <div onclick="closeMainMenu()">x</div>
+  </div>
+
+  <div id="asideBottom">
+    <button onclick="closeMainMenu()">Close</button>
+  </div>
+
+  <div class="listWrapper">
+
+    <div class="list">
+      <img src="resources/icon-marketplace.svg">
+      <h2>List your tool on GitHub Marketplace</h2>
+  
+      <div class="listFlex">
+  
+        <div>
+          <h3><a href="#">Read the documentation</a></h3>
+          <p>
+            Learn how you can build tools to extend and improve
+            developers' workflows.
+          </p>
+        </div>
+  
+        <div>
+          <h3><a href="#">Submit your tool for review</a></h3>
+          <p>Share your app or GitHub Action with millions of developers.</p>
+        </div>
+  
+      </div>
+    </div>
+
+  </div>
+
+
+  <footer>
+
+    <a href="#">Terms</a>
+    <a href="#">Privacy</a>
+    <a href="#">Contact GitHub</a>
+    <a href="#">Terms</a>
+    <a href="#">Privacy</a>
+    <a href="#">Contact GitHub</a>
+    <a href="#">Terms</a>
+    <a href="#">Privacy</a>
+    <a href="#">Contact GitHub</a>
+    <a href="#">Terms</a>
+    <a href="#">Privacy</a>
+
+    <p>© 2022 GitHub, Inc.</p>
+      
+  </footer>
+
+
+  <script>
+
+    let first_run = true;
+    function revealMenu() {
+      let x = document.getElementById('nav1');
+      let y = document.getElementById('search');
+      let h = document.getElementById('header');
+      if(first_run) {
+        x.style.display = 'block';
+        y.style.display = 'block';
+        h.style.marginBottom = '500px';
+        first_run = false;
+      }
+      else if(x.style.display === 'none') {
+        x.style.display = 'block';
+        y.style.display = 'block';
+        h.style.marginBottom = '500px';
+      }
+      else {
+        x.style.display = 'none';
+        y.style.display = 'none';
+        h.style.marginBottom = '70px';
+      }
+    }
+
+    function resizeFunction() {
+      let x = window.matchMedia("(min-width: 881px)");
+      if (x.matches) {
+        document.getElementById('nav1').style.display = 'block';
+        document.getElementById('header').style.marginBottom = '70px';
+        closeMainMenuPart();
+      }
+      else {
+        document.getElementById('nav1').style.display = 'none';
+      }
+    }
+
+    function revealMainMenu() {
+      document.getElementById('aside1').style.display = 'block';
+      document.getElementById('asideTop').style.display = 'flex';
+      document.getElementById('asideBottom').style.display = 'block';
+      document.getElementById('opacityWrapper').style.display = 'block';
+    }
+
+    function closeMainMenu() {
+      document.getElementById('aside1').style.display = 'none';
+      document.getElementById('asideTop').style.display = 'none';
+      document.getElementById('asideBottom').style.display = 'none';
+      document.getElementById('opacityWrapper').style.display = 'none';
+    }
+
+    function closeMainMenuPart() {
+      document.getElementById('asideTop').style.display = 'none';
+      document.getElementById('asideBottom').style.display = 'none';
+      document.getElementById('opacityWrapper').style.display = 'none';
+    }
+
+
+  </script>
+
+</body>
+
+</html>
